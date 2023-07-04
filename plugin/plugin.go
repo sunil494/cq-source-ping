@@ -17,7 +17,7 @@ func Plugin() *source.Plugin {
 		"sunil494-ping",
 		Version,
 		schema.Tables{
-			resources.SampleTable(),
+			resources.PingTable(),
 		},
 		client.New,
 	)

@@ -3,9 +3,10 @@ module github.com/sunil494/cq-source-ping
 go 1.19
 
 require (
-	github.com/apache/arrow/go/v13 v13.0.0-20230531201200-cbc17a98dfd9
 	github.com/cloudquery/plugin-pb-go v1.0.9
+	github.com/cloudquery/plugin-sdk v1.45.0
 	github.com/cloudquery/plugin-sdk/v3 v3.10.4
+	github.com/go-ping/ping v1.1.0
 	github.com/rs/zerolog v1.29.0
 )
 
@@ -13,6 +14,7 @@ replace github.com/apache/arrow/go/v13 => github.com/cloudquery/arrow/go/v13 v13
 
 require (
 	github.com/andybalholm/brotli v1.0.5 // indirect
+	github.com/apache/arrow/go/v13 v13.0.0-20230531201200-cbc17a98dfd9 // indirect
 	github.com/apache/thrift v0.16.0 // indirect
 	github.com/cloudquery/plugin-sdk/v2 v2.7.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect

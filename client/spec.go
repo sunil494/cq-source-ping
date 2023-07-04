@@ -1,5 +1,10 @@
 package client
 
 type Spec struct {
-	// plugin spec goes here
+	Pings []PingConfigBlock `json:"pings"`
+}
+
+type PingConfigBlock struct {
+	IP   string `json:"ip"`
+	NAME string `json:"name"`
 }
